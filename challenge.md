@@ -2,21 +2,21 @@
 
 ## Overview
 
-A ground control station is monitoring an unknown UAV entering a controlled airspace.
+A ground control station is monitoring an unknown UAV operating inside a controlled airspace.
 
-Teams are provided with a simulated control panel containing multiple sensor feeds. Using the available information, teams must design their own algorithm/system to analyze the UAV behavior and make decisions.
+Teams are provided with a simulated control panel containing multiple sensor feeds and telemetry sources. Using the available information, teams must develop their own algorithm/system to analyze UAV behavior and make intelligent decisions.
 
-The challenge environment simulates a real-time UAV monitoring system.
+The environment provides simulated real-time data similar to what a UAV monitoring system may receive.
 
 ---
 
-# Control Panel Sensors
+# Control Panel Sensors & Data Sources
 
-## 1. Radar System
+## 1. Radar Tracking System
 
-The radar provides real-time tracking information of detected aerial objects.
+The radar provides real-time information about detected aerial objects.
 
-Data provided:
+Example data:
 
 ```json
 {
