@@ -1,4 +1,4 @@
-```md
+
 # AEROSHIELD: Counter-UAV Intelligence Challenge
 
 ## Overview
